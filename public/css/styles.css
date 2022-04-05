@@ -1,0 +1,11 @@
+:root{
+    --primary: #A43FB8;
+}
+
+.text-purple{
+    color: var(--primary);
+}
+
+.fw-bold{
+    font-weight: bold;
+}
