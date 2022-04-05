@@ -175,8 +175,9 @@ The above copyright notice and this permission notice shall be included in all c
                                                 <!--  <a class="btn btn-primary" href="{{ route('compras.edit',$value->id) }}">Edit</a>   -->
                                                 @csrf
                                                 @method('DELETE')
-                                                <input type="submit" name="btn" class="material-icons" value="delete">
-
+                                                <button type="submit" name="btn" class="btn btn-sm btn-primary">
+                                                    <div class="material-icons">delete</div>
+                                                </button>
                                             </form>
                                         </td>
                                     </tr>
