@@ -22,7 +22,6 @@ class ventas extends Controller
         return view('ventas.create');
     }
 
-
     public function crearventa(Request $request)
     {
         dd($request);
@@ -36,11 +35,6 @@ class ventas extends Controller
                         ->with('success','pedido created successfully.');*/
     }
 
-
-
-
-
-
     public function store(Request $request)
     {
         // $request->validate([
@@ -50,16 +44,8 @@ class ventas extends Controller
         ModelsVentas::create($request->all());
 
         return redirect()->route('ventas.index')
-                        ->with('success','pedido created successfully.');
+            ->with('success', 'pedido created successfully.');
     }
-
-
-
-
-
-
-
-
 
     public function show(ventas $pedido)
     {
@@ -67,24 +53,10 @@ class ventas extends Controller
         return view('ventas.show', compact('pedido'));
     }
 
-
-
-
-
-
     public function edit(ventas $pedido)
     {
         return view('ventas.edit', compact('pedido'));
     }
-
-
-
-
-
-
-
-
-
 
     public function update(Request $request, ventas $pedido)
     {
@@ -100,14 +72,6 @@ class ventas extends Controller
         return redirect()->route('ventas.index')
             ->with('success', 'Venta updated successfully');
     }
-
-
-
-
-
-
-
-
 
     public function destroy(ventas $pedido)
     {

@@ -9,27 +9,24 @@ use App\Models\Productos;
 
 class CartController extends Controller
 {
-    
+
     public function add(Request $request){
-       
+
         $producto = Productos::find($request->producto_id);
 
         Cart::add(
-            $producto->id, 
-            $producto->name, 
-            $producto->price, 
-            1,
-         
-           
-        
+            $producto->id,
+            $producto->name,
+            $producto->price,
+            1
         );
         return back()->with('success',"$producto->name ¡se ha agregado con éxito al carrito!");
-        
-   
+
+
     }
 
     public function cart(){
-        
+
         return view('checkout');
     }
 
