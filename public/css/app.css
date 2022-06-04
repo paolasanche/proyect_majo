@@ -48,24 +48,15 @@ Remove the margin in all browsers.
 
 body {
   margin: 0;
+  background : #FA9FC9;
+  
+   /* background-image:  url("https://thumbs.dreamstime.com/z/modelo-del-cosm%C3%A9tico-de-la-moda-73687326.jpg");*/
+
+ 
 }
 
-/**
+/*
 Improve consistency of default fonts in all browsers. (https://github.com/sindresorhus/modern-normalize/issues/3)
-*/
-
-body {
-  font-family:
-		system-ui,
-		-apple-system, /* Firefox supports this but not yet `system-ui` */
-		'Segoe UI',
-		Roboto,
-		Helvetica,
-		Arial,
-		sans-serif,
-		'Apple Color Emoji',
-		'Segoe UI Emoji';
-}
 
 /*
 Grouping content
