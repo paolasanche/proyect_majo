@@ -84,7 +84,12 @@ The above copyright notice and this permission notice shall be included in all c
           </li>  
           
           @endif
-
+          <li class="nav-item ">
+            <a class="nav-link" href="{{ route('productos.index') }}">
+              <i class="material-icons">library_books</i>
+              <p>Productos</p>
+            </a>
+          </li>
 
 
 

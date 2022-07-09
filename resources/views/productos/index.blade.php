@@ -215,15 +215,19 @@ The above copyright notice and this permission notice shall be included in all c
                         @csrf
                         <input type="hidden" name="producto_id" value="{{$item->id}}">
                         <input type="submit" name="btn"  class="material-icons" value="shopping_cart">
-                        <a class="btn btn-primary" href="{{ route('productos.edit',$item->id) }}">Edit</a>   
+                         
                   </form>
-                  <form action="{{ route('productos.destroy',$item->id) }}" method="POST">                         
+                 
+                              </td>
+                              @if(Auth::user()->rol)
+                              <td> <form action="{{ route('productos.destroy',$item->id) }}" method="POST">                         
                     @csrf
+                    <a class="btn btn-primary" href="{{ route('productos.edit',$item->id) }}">Edit</a>  
                     @method('DELETE')      
                     <input type="submit" name="btn"  class="material-icons" value="delete">
                     
-                </form>
-                              </td>
+                </form></td>
+                @endif
                           </tr>
                           @endforeach
                       </tbody>
