@@ -217,7 +217,7 @@ The above copyright notice and this permission notice shall be included in all c
                         <div class="pull-left">                            
                         </div>
                         <div class="pull-right">
-                            <a class="btn btn-primary" href="{{ route('empleados.index') }}"> Back</a>
+                            <a class="btn btn-primary" href="{{ route('empleados.index') }}">Reportes</a>
                         </div>
                     </div>
                 </div>
@@ -302,7 +302,7 @@ The above copyright notice and this permission notice shall be included in all c
                 
                 
                         <div class="col-xs-12 col-sm-12 col-md-12 text-center">
-                                <button type="submit" class="btn btn-primary">Submit</button>
+                                <button type="submit" class="btn btn-primary">Guadar</button>
                         </div>
                     </div>
                    

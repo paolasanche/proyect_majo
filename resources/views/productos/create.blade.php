@@ -211,7 +211,7 @@ The above copyright notice and this permission notice shall be included in all c
 
 
 
-
+   
 
 
 
@@ -228,7 +228,7 @@ The above copyright notice and this permission notice shall be included in all c
                             
                         </div>
                         <div class="pull-right">
-                            <a class="btn btn-primary" href="{{ route('productos.index') }}"> Back</a>
+                            <a class="btn btn-primary" href="{{ route('productos.index') }}"> Reportes</a>
                         </div>
                     </div>
                 </div>
@@ -286,7 +286,7 @@ The above copyright notice and this permission notice shall be included in all c
                 
                         <div class="col-md-5">
                             <div class="form-group">
-                                <strong>price:</strong>
+                                <strong>precio:</strong>
                                 <input type="number" name="price" class="form-control" placeholder="Enter data">
                             </div>
                         </div>
@@ -304,7 +304,7 @@ The above copyright notice and this permission notice shall be included in all c
                 
                 
                         <div class="col-md-10 text-center">
-                                <button type="submit" class="btn btn-primary">Submit</button>
+                                <button type="submit" class="btn btn-primary">guardar</button>
                         </div>
                     </div>
                    

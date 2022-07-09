@@ -87,7 +87,7 @@ The above copyright notice and this permission notice shall be included in all c
           <li class="nav-item ">
             <a class="nav-link" href="{{ route('productos.index') }}">
               <i class="material-icons">library_books</i>
-              <p>Productos</p>
+              <p>Catálogo</p>
             </a>
           </li>
 
@@ -165,9 +165,7 @@ The above copyright notice and this permission notice shall be included in all c
           <div class="row">
 
 
-
-
-
+ 
 
             <div class="col-lg-3 col-md-6 col-sm-6">
               <div class="card card-stats">
@@ -260,6 +258,143 @@ The above copyright notice and this permission notice shall be included in all c
               </div>
             </div>
           </div>
+
+
+
+
+
+
+
+
+
+
+
+</center>
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

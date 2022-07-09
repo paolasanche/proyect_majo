@@ -50,7 +50,7 @@ The above copyright notice and this permission notice shall be included in all c
             </a>
           </li>
           @if(Auth::user()->rol)
-          <li class="nav-item active ">
+          <li class="nav-item ">
             <a class="nav-link" href="clientes">
               <i class="material-icons">person</i>
               <p>Clientes</p>
@@ -63,7 +63,7 @@ The above copyright notice and this permission notice shall be included in all c
             </a>
           </li>
           @endif
-          <li class="nav-item ">
+          <li class="nav-item  active ">
             <a class="nav-link" href="productoscreate">
               <i class="material-icons">library_books</i>
               <p>Productos</p>
@@ -93,7 +93,7 @@ The above copyright notice and this permission notice shall be included in all c
       <nav class="navbar navbar-expand-lg navbar-transparent navbar-absolute fixed-top ">
         <div class="container-fluid">
           <div class="navbar-wrapper">
-            <a class="navbar-brand" href="javascript:;">Table List</a>
+            
           </div>
           <button class="navbar-toggler" type="button" data-toggle="collapse" aria-controls="navigation-index" aria-expanded="false" aria-label="Toggle navigation">
             <span class="sr-only">Toggle navigation</span>
@@ -168,8 +168,8 @@ The above copyright notice and this permission notice shall be included in all c
             <div class="col-md-12">
               <div class="card">
                 <div class="card-header card-header-primary">
-                  <h4 class="card-title ">Simple Table</h4>
-                  <p class="card-category"> Here is a subtitle for this table</p>
+                  <h4 class="card-title ">Tabla de productos</h4>
+                  <p class="card-category">Listado de productos registrados</p>
                 </div>
                 <div class="card-body">
                   <div class="table-responsive">
@@ -186,11 +186,11 @@ The above copyright notice and this permission notice shall be included in all c
                     <table class="table">
                       <thead class=" text-primary">
                         <th>ID</th>
-                        <th> name</th>
+                        <th> Foto</th>
                         <th> name</th>
                         <th>Tamaño</th>
                         <th>Descripción</th>
-                        <th>price</th>
+                        <th>Precio</th>
                         <th width="280px">Action</th>
                       </thead>
                       <tbody>
