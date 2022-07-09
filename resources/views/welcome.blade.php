@@ -82,7 +82,7 @@ p {
 form {
   position : relative;
   width  : 1440px;
-  height : 1098px;
+  height : 1300px;
   margin : 0 auto;
   padding: 2em;
   box-sizing: border-box;

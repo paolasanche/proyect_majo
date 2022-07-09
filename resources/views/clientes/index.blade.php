@@ -209,7 +209,7 @@ SPECIAL TIME
             <td>{{ $value->telefono_cliente }}</td>
             <td>{{ $value->correo_cliente }}</td>
             <td>{{ $value->edad_cliente }}</td>
-            <td>{{ $value->direccion_cliente }}</td>
+            <td>{{ $value->direccion_cliente }}</td> 
             <td>{{ $value->estado_cliente }}</td>
             <td>{{ $value->municipio_cliente }}</td>
             <td>{{ $value->codigopostal_cliente }}</td>
@@ -219,7 +219,6 @@ SPECIAL TIME
                 <form action="{{ route('clientes.destroy',$value->id) }}" method="POST">                         
                 <a class="btn btn-primary" href="{{ route('clientes.edit',$value->id) }}">Edit</a>   
                     @csrf
-                    @method('DELETE')      
                     <input type="submit" name="btn"  class="material-icons" value="delete">
                     
                 </form>

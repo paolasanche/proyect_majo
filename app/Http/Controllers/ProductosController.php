@@ -45,12 +45,12 @@ class ProductosController extends Controller
 
         Productos::create($request->all());
 
-        return redirect()->route('productos.index')
+        return redirect()->route('productos.index') 
             ->with('success', 'producto created successfully.');
     }
 
     public function show(Productos $producto)
-    {
+    { 
         return view('productos.show', compact('producto'));
     }
 
