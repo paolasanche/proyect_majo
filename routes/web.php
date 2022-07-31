@@ -8,6 +8,9 @@ use App\Http\Controllers\ComprasController;
 use App\Http\Controllers\ProductosController;
 use App\Http\Controllers\CartController;
 use App\Http\Controllers\ventas;
+
+use App\Exports\ProductsExport;
+use Maatwebsite\Excel\Facades\Excel;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -86,3 +89,8 @@ Route::post('/cart-removeitem',  'App\Http\Controllers\CartController@removeitem
 
 Route::resource('ventas', ventas::class);
 Route::name('crearventa')->get('/crearventa', function () { return view('checkout'); });
+
+
+Route::get('/excelproductos', function () {
+    return Excel::download(new ProductsExport, 'products.xlsx');
+});

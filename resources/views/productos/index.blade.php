@@ -221,7 +221,7 @@ The above copyright notice and this permission notice shall be included in all c
                               </td>
                               @if(Auth::user()->rol)
                               <td> <form action="{{ route('productos.destroy',$item->id) }}" method="POST">                         
-                    @csrf
+                    @csrf 
                     <a class="btn btn-primary" href="{{ route('productos.edit',$item->id) }}">Edit</a>  
                     @method('DELETE')      
                     <input type="submit" name="btn"  class="material-icons" value="delete">
@@ -233,7 +233,9 @@ The above copyright notice and this permission notice shall be included in all c
                       </tbody>
                     </table>
                      
-
+                    <div class="pull-right">
+                            <a class="btn btn-primary" href="excelproductos"> Reportes</a>
+                        </div>
 
                   </div>
                 </div>
