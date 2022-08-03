@@ -79,7 +79,7 @@ The above copyright notice and this permission notice shall be included in all c
           </li>-->
 
           <li class="nav-item ">
-            <a class="nav-link" href="comprascreate">
+          <a class="nav-link" href="{{ route('compras.index') }}">
               <i class="material-icons">library_books</i>
               <p>Compras</p>
             </a>
@@ -191,7 +191,8 @@ The above copyright notice and this permission notice shall be included in all c
                         <th>Tamaño</th>
                         <th>Descripción</th>
                         <th>Precio</th>
-                        <th width="280px">Action</th>
+                        <th>Action</th>
+                        <th >ADMIN Action</th>
                       </thead>
                       <tbody>
                         <tr>
@@ -233,8 +234,11 @@ The above copyright notice and this permission notice shall be included in all c
                       </tbody>
                     </table>
                      
-                    <div class="pull-right">
-                            <a class="btn btn-primary" href="excelproductos"> Reportes</a>
+                    <div class="pull-left">
+                            <a class="btn btn-primary" href="excelproductos"> Excel</a>
+                     </div>
+                     <div class="pull-left">
+                            <a class="btn btn-primary" href="pdfproductos"> Pdf</a>
                         </div>
 
                   </div>

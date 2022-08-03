@@ -9,8 +9,17 @@ use App\Http\Controllers\ProductosController;
 use App\Http\Controllers\CartController;
 use App\Http\Controllers\ventas;
 
-use App\Exports\ProductsExport;
 use Maatwebsite\Excel\Facades\Excel;
+use App\Exports\ProductsExport;
+use App\Exports\ClientesExport; 
+use App\Exports\EmpleadosExport; 
+use App\Exports\VentasExport; 
+
+
+
+
+
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -90,7 +99,61 @@ Route::post('/cart-removeitem',  'App\Http\Controllers\CartController@removeitem
 Route::resource('ventas', ventas::class);
 Route::name('crearventa')->get('/crearventa', function () { return view('checkout'); });
 
+/////////////////EXCEL//PDF////////////////////////////////
 
+
+
+
+///PRODUCTOS//////////////
 Route::get('/excelproductos', function () {
     return Excel::download(new ProductsExport, 'products.xlsx');
 });
+
+Route::get('/pdfproductos', function () {
+    return Excel::download(new ProductsExport, 'products.pdf');
+});
+
+
+///////////CLIENTES////////////////////    //////
+
+Route::get('/excelclientes', function () {
+    return Excel::download(new ClientesExport, 'clientes.xlsx');
+});
+
+Route::get('/pdfclientes', function () { 
+    return Excel::download(new ClientesExport, 'clientes.pdf');
+});
+
+////////////////////EMPLEADOS////////////////////////////
+
+Route::get('/excelempleados', function () {
+    return Excel::download(new EmpleadosExport, 'empleados.xlsx');
+});
+
+Route::get('/pdfempleados', function () {
+    return Excel::download(new EmpleadosExport, 'empleados.pdf');
+});
+
+//////VENTAS//////////////////////
+
+Route::get('/excelventas', function () {
+    return Excel::download(new VentasExport, 'ventas.xlsx');
+});
+
+Route::get('/pdfventas', function () {
+    return Excel::download(new VentasExport, 'ventas.pdf');
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -107,7 +107,7 @@ The above copyright notice and this permission notice shall be included in all c
           </li>-->
 
           <li class="nav-item ">
-            <a class="nav-link" href="comprascreate">
+          <a class="nav-link" href="{{ route('compras.index') }}">
               <i class="material-icons">library_books</i>
               <p>Compras</p>
             </a>

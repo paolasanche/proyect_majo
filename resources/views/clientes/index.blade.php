@@ -79,7 +79,7 @@ SPECIAL TIME
           </li>-->
 
           <li class="nav-item ">
-            <a class="nav-link" href="comprascreate">
+          <a class="nav-link" href="{{ route('compras.index') }}">
               <i class="material-icons">library_books</i>
               <p>Compras</p>
             </a>
@@ -227,6 +227,12 @@ SPECIAL TIME
         @endforeach
                       </tbody>
                     </table>
+                    <div class="pull-left">
+                            <a class="btn btn-primary" href="excelclientes"> Excel</a>
+                     </div>
+                     <div class="pull-left">
+                            <a class="btn btn-primary" href="pdfclientes"> Pdf</a>
+                        </div>
                      
 
 
