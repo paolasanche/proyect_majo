@@ -67,7 +67,7 @@ The above copyright notice and this permission notice shall be included in all c
         Tip 2: you can also add an image using data-image tag
     -->
       <div class="logo"><a href="http://www.creative-tim.com" class="simple-text logo-normal">
-          CAKE TIME
+          MAJO
         </a></div>
       <div class="sidebar-wrapper">
         <ul class="nav">
@@ -254,7 +254,7 @@ The above copyright notice and this permission notice shall be included in all c
                         <div class="col-md-3">
                             <div class="form-group">
                                 <strong>Nombre:</strong>
-                                <input type="text" name="nombre_cliente" class="form-control" placeholder="Enter name">
+                                <input type="text" name="nombre_cliente" class="form-control" placeholder="ingrese nommbre ">
                             </div>
                         </div>
                         
@@ -264,7 +264,7 @@ The above copyright notice and this permission notice shall be included in all c
                         <div class="col-md-2">
                             <div class="form-group">
                                 <strong>Telefono:</strong>
-                                <input type="number" name="telefono_cliente" class="form-control" placeholder="Enter number">
+                                <input type="number" name="telefono_cliente" class="form-control" placeholder="ingrese el número">
                             </div>
                         </div>
                 
@@ -275,7 +275,7 @@ The above copyright notice and this permission notice shall be included in all c
                         <div class="col-md-5">
                             <div class="form-group">
                                 <strong>Correo:</strong>
-                                <input type="email" name="correo_cliente" class="form-control" placeholder="Enter email">
+                                <input type="email" name="correo_cliente" class="form-control" placeholder="corre electrónico">
                             </div>
                         </div>
                 
@@ -286,7 +286,7 @@ The above copyright notice and this permission notice shall be included in all c
                         <div class="col-md-2">
                             <div class="form-group">
                                 <strong>Edad:</strong>
-                                <input type="number" name="edad_cliente" class="form-control" placeholder="Enter age">
+                                <input type="number" name="edad_cliente" class="form-control" placeholder="ingrese edad">
                             </div>
                         </div>
                 
@@ -297,7 +297,7 @@ The above copyright notice and this permission notice shall be included in all c
                         <div class="col-md-3">
                             <div class="form-group">
                                 <strong>Dirección:</strong>
-                                <input type="direccion_cliente" name="direccion_cliente" class="form-control" placeholder="Enter address">
+                                <input type="direccion_cliente" name="direccion_cliente" class="form-control" placeholder="Dirección">
                             </div>
                         </div>
                 
@@ -307,7 +307,7 @@ The above copyright notice and this permission notice shall be included in all c
                         <div class="col-md-5">
                             <div class="form-group">
                                 <strong>Estado:</strong>
-                                <input type="text" name="estado_cliente" class="form-control" placeholder="Enter estado">
+                                <input type="text" name="estado_cliente" class="form-control" placeholder="Estado">
                             </div>
                         </div>
                 
@@ -317,7 +317,7 @@ The above copyright notice and this permission notice shall be included in all c
                         <div class="col-md-3">
                             <div class="form-group">
                                 <strong>Municipio:</strong>
-                                <input type="text" name="municipio_cliente" class="form-control" placeholder="Enter name">
+                                <input type="text" name="municipio_cliente" class="form-control" placeholder="Munucipio">
                             </div>
                         </div>
                 
@@ -328,7 +328,7 @@ The above copyright notice and this permission notice shall be included in all c
                         <div class="col-md-2">
                             <div class="form-group">
                                 <strong>Código Postal:</strong>
-                                <input type="number" name="codigopostal_cliente" class="form-control" placeholder="Enter code">
+                                <input type="number" name="codigopostal_cliente" class="form-control" placeholder="Codigo postal">
                             </div>
                         </div>
                 
@@ -337,7 +337,7 @@ The above copyright notice and this permission notice shall be included in all c
                         <div class="col-md-10">
                             <div class="form-group">
                                 <strong>Forma de pago:</strong>
-                                <input type="text" name="forma_pago" class="form-control" placeholder="Enter data">
+                                <input type="text" name="forma_pago" class="form-control" placeholder="Forma de pago">
                             </div>
                         </div>
                 

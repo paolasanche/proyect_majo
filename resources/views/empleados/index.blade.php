@@ -18,7 +18,7 @@ The above copyright notice and this permission notice shall be included in all c
   <link rel="icon" type="image/png" href="img/favicon.png">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
   <title>
-    SPECIAL TIME 
+   MAJO
   </title>
   <meta content='width=device-width, initial-scale=1.0, shrink-to-fit=no' name='viewport' />
   <!--     Fonts and icons     -->
@@ -38,8 +38,8 @@ The above copyright notice and this permission notice shall be included in all c
 
         Tip 2: you can also add an image using data-image tag
     -->
-      <div class="logo"><a href="http://www.creative-tim.com" class="simple-text logo-normal">
-      SPECIAL TIME 
+      <div class="logo"><a href="http://zapatosmajo.online" class="simple-text logo-normal">
+     MAJO
         </a></div>
       <div class="sidebar-wrapper">
         <ul class="nav">
@@ -200,7 +200,7 @@ The above copyright notice and this permission notice shall be included in all c
             <th>Correo</th>            
             <th>Dirección</th>
             <th>puesto</th>          
-            <th width="280px">Action</th>
+            <th width="280px">opciones</th>
         </tr>
                       </thead>
                       <tbody>
@@ -217,7 +217,7 @@ The above copyright notice and this permission notice shall be included in all c
 
             <td>
                 <form action="{{ route('empleados.destroy',$value->id) }}" method="POST">                         
-                <a class="btn btn-primary" href="{{ route('empleados.edit',$value->id) }}">Edit</a>  
+                <a class="btn btn-primary" href="{{ route('empleados.edit',$value->id) }}">Editar</a>  
                     @csrf
                     @method('DELETE')      
                     <input type="submit" name="btn"  class="material-icons" value="delete">
@@ -245,41 +245,6 @@ The above copyright notice and this permission notice shall be included in all c
         </div>
       </div>
     {!! $data->links() !!}   
-      <footer class="footer">
-        <div class="container-fluid">
-          <nav class="float-left">
-            <ul>
-              <li>
-                <a href="https://www.creative-tim.com">
-                  Creative Tim
-                </a>
-              </li>
-              <li>
-                <a href="https://creative-tim.com/presentation">
-                  About Us
-                </a>
-              </li>
-              <li>
-                <a href="http://blog.creative-tim.com">
-                  Blog
-                </a>
-              </li>
-              <li>
-                <a href="https://www.creative-tim.com/license">
-                  Licenses
-                </a>
-              </li>
-            </ul>
-          </nav>
-          <div class="copyright float-right">
-            &copy;
-            <script>
-              document.write(new Date().getFullYear())
-            </script>, made with <i class="material-icons">favorite</i> by
-            <a href="https://www.creative-tim.com" target="_blank">Creative Tim</a> for a better web.
-          </div>
-        </div>
-      </footer>
     </div>
   </div>
  

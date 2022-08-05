@@ -11,21 +11,24 @@ Coded by Creative Tim
 The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software. -->
 <!DOCTYPE html>
 <html lang="en">
+ 
 
 <head>
-  <meta charset="utf-8" /> 
-  <link rel="apple-touch-icon" sizes="76x76" href="img/apple-icon.png">
-  <link rel="icon" type="image/png" href="img/favicon.png">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-  <title>MAJO</title>
-  <meta content='width=device-width, initial-scale=1.0, shrink-to-fit=no' name='viewport' />
-  <!--     Fonts and icons     -->
-  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:400,700|Material+Icons" />
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css">
-  <!-- CSS Files -->
-  <link href="css/material-dashboard.css?v=2.1.2" rel="stylesheet" />
-  <!-- CSS Just for demo purpose, don't include it in your project -->
-  <link href="demo/demo.css" rel="stylesheet" />
+    <meta charset="utf-8" />
+    <link rel="apple-touch-icon" sizes="76x76" href="img/apple-icon.png">
+    <link rel="icon" type="image/png" href="img/favicon.png">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <title>
+       MAJO
+    </title>
+    <meta content='width=device-width, initial-scale=1.0, shrink-to-fit=no' name='viewport' />
+    <!--     Fonts and icons     -->
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:400,700|Material+Icons" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css">
+    <!-- CSS Files -->
+    <link href="css/material-dashboard.css?v=2.1.2" rel="stylesheet" />
+    <!-- CSS Just for demo purpose, don't include it in your project -->
+    <link href="demo/demo.css" rel="stylesheet" />
 </head>
 
 <body class="">
@@ -36,7 +39,7 @@ The above copyright notice and this permission notice shall be included in all c
 
         Tip 2: you can also add an image using data-image tag
     -->
-      <div class="logo"><a href="https://scontent.fmex26-1.fna.fbcdn.net/v/t1.15752-9/153550340_277535003718018_4322129399924214108_n.jpg?_nc_cat=104&ccb=3&_nc_sid=ae9488&_nc_ohc=DLPTiy0om5sAX8hd-v6&_nc_ht=scontent.fmex26-1.fna&oh=221c3d7f986a61cf158be8d0a2998951&oe=605D713D" class="simple-text logo-normal">
+      <div class="logo"><a href="https://zapatosmajo.online" class="simple-text logo-normal">
           MAJO
         </a></div>
       <div class="sidebar-wrapper">
@@ -118,14 +121,7 @@ The above copyright notice and this permission notice shall be included in all c
               </div>
             </form>
             <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link" href="javascript:;">
-                  <i class="material-icons">dashboard</i>
-                  <p class="d-lg-none d-md-block">
-                    Stats
-                  </p>
-                </a>
-              </li>
+
               <li class="nav-item dropdown">
                 <a class="nav-link" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                   <i class="material-icons">notifications</i>

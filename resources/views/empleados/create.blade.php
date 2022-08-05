@@ -18,7 +18,7 @@ The above copyright notice and this permission notice shall be included in all c
   <link rel="icon" type="image/png" href="img/favicon.png">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
   <title>
-   CAKE TIME
+   MAJO
   </title>
   <meta content='width=device-width, initial-scale=1.0, shrink-to-fit=no' name='viewport' />
   <!--     Fonts and icons     -->
@@ -38,8 +38,8 @@ The above copyright notice and this permission notice shall be included in all c
 
         Tip 2: you can also add an image using data-image tag
     -->
-      <div class="logo"><a href="http://www.creative-tim.com" class="simple-text logo-normal">
-          Creative Tim
+      <div class="logo"><a href="http://zapatosmajo.online" class="simple-text logo-normal">
+          MAJO
         </a></div>
       <div class="sidebar-wrapper">
         <ul class="nav">
@@ -274,7 +274,7 @@ The above copyright notice and this permission notice shall be included in all c
                             <div class="row">
                               <div class="col-md-6">
                                 <div class="form-group">
-                                <input type="email" name="correo_empleado" class="form-control" placeholder="Enter email">
+                                <input type="email" name="correo_empleado" class="form-control" placeholder="correo electrónico">
                                 </div>
                               </div>
         
@@ -282,7 +282,7 @@ The above copyright notice and this permission notice shall be included in all c
         
                               <div class="col-md-6">
                                 <div class="form-group">
-                                  <input type="address" name="direccion_empleado" class="form-control" placeholder="Enter address">
+                                  <input type="address" name="direccion_empleado" class="form-control" placeholder="dirección">
                                 </div>
                               </div>
                             </div>
@@ -292,7 +292,7 @@ The above copyright notice and this permission notice shall be included in all c
                             <div class="row">
                               <div class="col-md-12">
                                 <div class="form-group">
-                                  <input type="text" name="puesto_empleado" class="form-control" placeholder="Enter info">
+                                  <input type="text" name="puesto_empleado" class="form-control" placeholder="info">
                                 </div>
                               </div>
                             </div>
@@ -385,41 +385,6 @@ The above copyright notice and this permission notice shall be included in all c
           </div>
         </div>
       </div>
-      <footer class="footer">
-        <div class="container-fluid">
-          <nav class="float-left">
-            <ul>
-              <li>
-                <a href="https://www.creative-tim.com">
-                  Creative Tim
-                </a>
-              </li>
-              <li>
-                <a href="https://creative-tim.com/presentation">
-                  About Us
-                </a>
-              </li>
-              <li>
-                <a href="http://blog.creative-tim.com">
-                  Blog
-                </a>
-              </li>
-              <li>
-                <a href="https://www.creative-tim.com/license">
-                  Licenses
-                </a>
-              </li>
-            </ul>
-          </nav>
-          <div class="copyright float-right">
-            &copy;
-            <script>
-              document.write(new Date().getFullYear())
-            </script>, made with <i class="material-icons">favorite</i> by
-            <a href="https://www.creative-tim.com" target="_blank">Creative Tim</a> for a better web.
-          </div>
-        </div>
-      </footer>
     </div>
   </div>
   <!--   Core JS Files   -->

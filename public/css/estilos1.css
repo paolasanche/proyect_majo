@@ -1,0 +1,53 @@
+/*----------------header/menu----------------*/
+
+
+header{
+  font-family: Cursive;
+  width: 480px;
+  margin: 0 auto;
+  margin: 0;
+  padding: 0;
+  }
+  ul{
+  list-style: none;
+  }
+  #menu li>a{
+  background-color: palegreen;
+  color: white;
+  padding: 10px;
+  display: block;
+  text-decoration: none;
+  min-width: 100px;
+  }
+  #menu li>a:hover{
+  color: #000;
+  background-color: #eaeaea;
+  }
+  #menu>li{
+  float: left;
+  text-align:center
+  }
+  #menu>li>ul{
+    display: none;
+  }
+  #menu>li:hover>ul {
+    display:block;
+  }
+
+  /*---------------footer--------------------------*/
+
+body {
+    font-family: "Open Sans", Arial, Sans-serif;
+    font-size: 16px;
+    background-image: url("https://i.pinimg.com/originals/05/1b/82/051b82120f76bcbe3fde9de5906a8d6b.jpg");
+  }
+.informacion{
+  margin-left:200px;
+    margin-right:150px;
+    margin-top:150px;
+    padding: 2em;
+  background-image:  url("https://img.freepik.com/foto-gratis/resumen-superficie-texturas-muro-piedra-hormigon-blanco_74190-8189.jpg?w=2000");
+  background-color: rgb(215, 207, 173);
+  opacity: 2.5;
+ 
+}

@@ -18,7 +18,7 @@ The above copyright notice and this permission notice shall be included in all c
   <link rel="icon" type="image/png" href="img/favicon.png">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
   <title>
-    Material Dashboard by Creative Tim
+  MAJO
   </title>
   <meta content='width=device-width, initial-scale=1.0, shrink-to-fit=no' name='viewport' />
   <!--     Fonts and icons     -->
@@ -38,8 +38,8 @@ The above copyright notice and this permission notice shall be included in all c
 
         Tip 2: you can also add an image using data-image tag
     -->
-      <div class="logo"><a href="http://www.creative-tim.com" class="simple-text logo-normal">
-          Creative Tim
+      <div class="logo"><a href="http://zapatosmajo.online" class="simple-text logo-normal">
+          MAJO
         </a></div>
       <div class="sidebar-wrapper">
         <ul class="nav">
@@ -93,7 +93,7 @@ The above copyright notice and this permission notice shall be included in all c
       <nav class="navbar navbar-expand-lg navbar-transparent navbar-absolute fixed-top ">
         <div class="container-fluid">
           <div class="navbar-wrapper">
-            <a class="navbar-brand" href="javascript:;">Table List</a>
+
           </div>
           <button class="navbar-toggler" type="button" data-toggle="collapse" aria-controls="navigation-index" aria-expanded="false" aria-label="Toggle navigation">
             <span class="sr-only">Toggle navigation</span>
@@ -255,7 +255,7 @@ The above copyright notice and this permission notice shall be included in all c
                         <div class="col-md-5">
                             <div class="form-group">
                                 <strong>name:</strong>
-                                <input type="text" name="name" class="form-control" placeholder="Enter name">
+                                <input type="text" name="name" class="form-control" placeholder="nombre">
                             </div>
                         </div>
                         
@@ -265,7 +265,7 @@ The above copyright notice and this permission notice shall be included in all c
                         <div class="col-md-5">
                             <div class="form-group">
                                 <strong>Tamaño:</strong>
-                                <input type="text" name="tamano" class="form-control" placeholder="Enter data">
+                                <input type="text" name="tamano" class="form-control" placeholder="tamaño">
                             </div>
                         </div>
                 
@@ -276,7 +276,7 @@ The above copyright notice and this permission notice shall be included in all c
                         <div class="col-md-5">
                             <div class="form-group">
                                 <strong>Descripcción:</strong>
-                                <input type="text" name="descripcion" class="form-control" placeholder="Enter text">
+                                <input type="text" name="descripcion" class="form-control" placeholder="descripción">
                             </div>
                         </div>
                 
@@ -287,7 +287,7 @@ The above copyright notice and this permission notice shall be included in all c
                         <div class="col-md-5">
                             <div class="form-group">
                                 <strong>precio:</strong>
-                                <input type="number" name="price" class="form-control" placeholder="Enter data">
+                                <input type="number" name="price" class="form-control" placeholder="precio">
                             </div>
                         </div>
                 
@@ -397,42 +397,6 @@ The above copyright notice and this permission notice shall be included in all c
 
 
 
-
-      <footer class="footer">
-        <div class="container-fluid">
-          <nav class="float-left">
-            <ul>
-              <li>
-                <a href="https://www.creative-tim.com">
-                  Creative Tim
-                </a>
-              </li>
-              <li>
-                <a href="https://creative-tim.com/presentation">
-                  About Us
-                </a>
-              </li>
-              <li>
-                <a href="http://blog.creative-tim.com">
-                  Blog
-                </a>
-              </li>
-              <li>
-                <a href="https://www.creative-tim.com/license">
-                  Licenses
-                </a>
-              </li>
-            </ul>
-          </nav>
-          <div class="copyright float-right">
-            &copy;
-            <script>
-              document.write(new Date().getFullYear())
-            </script>, made with <i class="material-icons">favorite</i> by
-            <a href="https://www.creative-tim.com" target="_blank">Creative Tim</a> for a better web.
-          </div>
-        </div>
-      </footer>
     </div>
   </div>
   <!--   Core JS Files   -->
