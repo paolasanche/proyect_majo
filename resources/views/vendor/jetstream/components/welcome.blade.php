@@ -33,6 +33,7 @@ The above copyright notice and this permission notice shall be included in all c
 
 <body class="">
   <div class="wrapper ">
+    
     <div class="sidebar" data-color="purple" data-background-color="white" data-image="img/sidebar-1.jpg">
       <!--
         Tip 1: You can change the color of the sidebar using: data-color="purple | azure | green | orange | danger"
@@ -58,7 +59,7 @@ The above copyright notice and this permission notice shall be included in all c
             </a>
           </li>
           <li class="nav-item ">
-            <a class="nav-link" href="empleadoscreate">
+            <a class="nav-link" href="/empleados">
               <i class="material-icons">person</i>
               <p>Empleados</p>
             </a>
@@ -102,6 +103,9 @@ The above copyright notice and this permission notice shall be included in all c
         </ul>
       </div>
     </div>
+
+
+    ......
     <div class="main-panel">
       <!-- Navbar -->
       <nav class="navbar navbar-expand-lg navbar-transparent navbar-absolute fixed-top ">
@@ -230,14 +234,6 @@ The above copyright notice and this permission notice shall be included in all c
               </div>
             </div>
 
-
-
-
-
-
-
-
-
             <div class="col-lg-3 col-md-6 col-sm-6">
               <div class="card card-stats">
                 <div class="card-header card-header-info card-header-icon">
@@ -256,191 +252,11 @@ The above copyright notice and this permission notice shall be included in all c
             </div>
           </div>
 
-
-
-
-
-
-
-
-
-
-
 </center>
-
-
-
-
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
           <div class="row">
 
-
-
-
-
-
-
-
-            
             <div class="col-md-4">
               <div class="card card-chart">
                 <img src="img/1.jpg"  width="330"  height="180">
@@ -459,15 +275,6 @@ The above copyright notice and this permission notice shall be included in all c
               </div>
             </div>
 
-
-
-
-
-
-
-
-            
-
             <div class="col-md-4">
               <div class="card card-chart">
                 <img src="img/2.png"  width="330"  height="180"> 
@@ -484,11 +291,6 @@ The above copyright notice and this permission notice shall be included in all c
                 </div>
               </div>
             </div>
-
-
-
-
-
 
 
             <div class="col-md-4">

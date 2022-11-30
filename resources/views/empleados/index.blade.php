@@ -57,7 +57,7 @@ The above copyright notice and this permission notice shall be included in all c
             </a>
           </li>
           <li class="nav-item ">
-            <a class="nav-link" href="empleadoscreate">
+            <a class="nav-link" href="/empleados">
               <i class="material-icons">person</i>
               <p>Empleados</p>
             </a>
@@ -202,7 +202,11 @@ The above copyright notice and this permission notice shall be included in all c
             <th>puesto</th>          
             <th width="280px">opciones</th>
         </tr>
-                      </thead>
+        <a href="{{ route('empleadoscreate') }}" aria-hidden="true">
+        
+          <i class="material-icons">person</i>  Agregar empleado</a>        
+              </thead>
+
                       <tbody>
                         <tr>
                         @foreach ($data as $key => $value)
@@ -227,6 +231,7 @@ The above copyright notice and this permission notice shall be included in all c
         </tr>
         @endforeach
                       </tbody>
+
                     </table>
                     <div class="pull-left">
                             <a class="btn btn-primary" href="excelempleados"> Excel</a>
@@ -238,13 +243,14 @@ The above copyright notice and this permission notice shall be included in all c
 
 
                   </div>
+{{$data->links()}}
+                  
                 </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-    {!! $data->links() !!}   
     </div>
   </div>
  

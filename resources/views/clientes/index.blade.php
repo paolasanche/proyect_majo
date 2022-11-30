@@ -57,7 +57,7 @@ MAJO
             </a>
           </li>
           <li class="nav-item ">
-            <a class="nav-link" href="empleadoscreate">
+            <a class="nav-link" href="/empleados">
               <i class="material-icons">person</i>
               <p>Empleados</p>
             </a>

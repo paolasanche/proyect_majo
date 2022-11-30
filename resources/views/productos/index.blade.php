@@ -201,7 +201,7 @@ The above copyright notice and this permission notice shall be included in all c
                               <td>{{ $item->id }}</td>
                               <td> 
 
-                               <img src="{{ asset('archivos/'.$item->foto) }}" width="100px"> 
+                              <img src="{{ asset('../../archivos/'.$item->foto)}}" width="100" height="200" alt="Product Image">
 
 
                               </td>

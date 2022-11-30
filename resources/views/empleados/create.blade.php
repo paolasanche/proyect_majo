@@ -57,7 +57,7 @@ The above copyright notice and this permission notice shall be included in all c
             </a>
           </li>
           <li class="nav-item active ">
-            <a class="nav-link" href="./user">
+            <a class="nav-link" href="/empleados">
               <i class="material-icons">person</i>
               <p>Empleados</p>
             </a>
