@@ -43,7 +43,7 @@ class ApiController extends Controller
         ]);
         Empleados::create($request->all());
 
-        return response()->json([ 'data'    => 'Empleado creado correctamente.'], 200);
+        return response()->json([ 'message'    => 'Empleado creado correctamente.'], 200);
 
 
     }

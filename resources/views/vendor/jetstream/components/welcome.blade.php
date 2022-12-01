@@ -66,7 +66,7 @@ The above copyright notice and this permission notice shall be included in all c
           </li>
       
           <li class="nav-item ">
-            <a class="nav-link" href="productoscreate">
+            <a class="nav-link" href="/productos">
               <i class="material-icons">library_books</i>
               <p>Productos</p>
             </a>
